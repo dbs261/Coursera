@@ -1,0 +1,172 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#heading
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 175%;
+    font-weight: 600;
+    margin: 30px 0 60px 0;
+}
+
+body
+{
+    margin:0px;
+} 
+
+#title1,#title2,#title3         /*for titles*/
+{
+    margin:-1px;
+    padding: 6px;
+    border: 1px solid black;
+    font-size: 125%;
+    font-weight: 550;
+    width: 40%;
+    height:2em;
+    text-align: center;
+    position: absolute;
+    right:0;
+}
+
+
+#title1
+{
+    background-color: rgb(214, 140, 153);
+}
+
+#title2 
+{
+   background-color: rgb(206, 80, 80);
+   color: white;
+}
+  
+#title3
+{
+    background-color: rgb(190, 146, 105);
+}
+
+.text                          
+{
+    position: absolute;
+    top: 30px;
+    margin: 20px;
+    font-weight: 550;
+}
+
+@media (min-width:992px)
+{
+div               /*for boxes*/
+{
+    width: 32.46527777%;
+    height:325px;
+    border: 1px solid black;
+    background-color: gray;
+    float: left;
+    position: relative;
+}
+  
+#box1
+{
+    margin-left: 0.651041666%;      /* ~10px in full screen */
+    margin-right: 0.325520833%;     /* ~5px in full screen  */
+}
+
+#box2 
+{
+    margin-left: 0.325520833%;
+    margin-right: 0.325520833%;
+}
+  
+#box3
+{
+    margin-left: 0.325520833%;
+    margin-right: 0.651041666%;  
+}
+
+
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    div               
+    {
+        
+        
+        border: 1px solid black;
+        background-color: gray;
+        float: left;
+        position: relative;
+    }
+      
+    #box1
+    {
+        height:280px;
+        width: 49.0234375%;
+        margin-left: 0.651041666%;      
+        margin-right: 0.325520833%;    
+    }
+    
+    #box2 
+    {
+        height:280px;
+        width: 49.0234375%;
+        margin-left: 0.325520833%;
+        margin-right: 0.651041666%;
+    }
+      
+    #box3
+    {
+        height:200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width:98.6979166667%;
+        margin-left: 0.651041666%;
+        margin-right: 0.651041666%;  
+    }
+  
+    
+}
+@media (max-width:767px)
+{
+    div               
+    {
+        height:225px;
+        border: 1px solid black;
+        background-color: gray;
+        float: left;
+        position: relative;
+    }
+      
+    #box1
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 98.6979166667%;
+        margin-left: 0.651041666%;      
+        margin-right: 0.651041666%;    
+    }
+    
+    #box2 
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 98.6979166667%;
+        margin-left: 0.651041666%;
+        margin-right: 0.651041666%;
+    }
+      
+    #box3
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width:98.6979166667%;
+        margin-left: 0.651041666%;
+        margin-right: 0.651041666%;  
+    }
+ 
+
+}
